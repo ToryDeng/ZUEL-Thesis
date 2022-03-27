@@ -1,0 +1,279 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{gbnytd/global//global/global}
+    \entry{jiaoyunchen2018}{article}{}
+      \name{author}{1}{}{%
+        {{hash=9716452e321e1e2be6d2e1f43a3703b4}{%
+           family={陈娇芸},
+           familyi={陈\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {chinese}%
+      }
+      \strng{namehash}{9716452e321e1e2be6d2e1f43a3703b4}
+      \strng{fullhash}{9716452e321e1e2be6d2e1f43a3703b4}
+      \strng{bibnamehash}{9716452e321e1e2be6d2e1f43a3703b4}
+      \strng{authorbibnamehash}{9716452e321e1e2be6d2e1f43a3703b4}
+      \strng{authornamehash}{9716452e321e1e2be6d2e1f43a3703b4}
+      \strng{authorfullhash}{9716452e321e1e2be6d2e1f43a3703b4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{淮海工学院学报: 人文社会科学版}
+      \field{langid}{english}
+      \field{lansortorder}{1}
+      \field{number}{2}
+      \field{title}{中国传统饮食文化的当代价值及实现路径}
+      \field{usera}{J}
+      \field{userd}{chinese}
+      \field{userf}{chinese}
+      \field{volume}{16}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \true{nocite}
+      \field{pages}{87\bibrangedash 90}
+      \range{pages}{4}
+      \keyw{jiaoyunchen2018}
+    \endentry
+    \entry{xiaoyanzhou2002}{article}{}
+      \name{author}{5}{}{%
+        {{hash=88ad60eaac5efacc601ea78199362826}{%
+           family={周晓燕},
+           familyi={周\bibinitperiod}}}%
+        {{hash=235e3e30d83ae20b52e75819a88753a0}{%
+           family={唐建华},
+           familyi={唐\bibinitperiod}}}%
+        {{hash=76453cb25fc125f46b0db3e260c59d33}{%
+           family={张建军},
+           familyi={张\bibinitperiod}}}%
+        {{hash=bdc724ef184ed83c76b7fc51a0dd45e0}{%
+           family={刘涛},
+           familyi={刘\bibinitperiod}}}%
+        {{hash=ba586fae7a81803d3dddcfe1b30f9a68}{%
+           family={黄玉军},
+           familyi={黄\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {chinese}%
+      }
+      \strng{namehash}{529b928f845e151c3d149714c3639ee7}
+      \strng{fullhash}{e9a9878e9277ac5562835a621c74ad7e}
+      \strng{bibnamehash}{27e706bb75a2cb1583b97bb8e3b26821}
+      \strng{authorbibnamehash}{27e706bb75a2cb1583b97bb8e3b26821}
+      \strng{authornamehash}{529b928f845e151c3d149714c3639ee7}
+      \strng{authorfullhash}{e9a9878e9277ac5562835a621c74ad7e}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{扬州大学烹饪学报}
+      \field{langid}{english}
+      \field{lansortorder}{1}
+      \field{number}{2}
+      \field{title}{扬州蛋炒饭工艺标准化研究}
+      \field{usera}{J}
+      \field{userd}{chinese}
+      \field{userf}{chinese}
+      \field{volume}{19}
+      \field{year}{2002}
+      \field{dateera}{ce}
+      \true{nocite}
+      \field{pages}{24\bibrangedash 27}
+      \range{pages}{4}
+      \keyw{xiaoyanzhou2002}
+    \endentry
+    \entry{RN151}{article}{}
+      \name{author}{1}{}{%
+        {{hash=a33ababcca5b83a7777452957fb2eef2}{%
+           family={Van\bibnamedelimb Der\bibnamedelima Maaten},
+           familyi={V\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Laurens},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{a33ababcca5b83a7777452957fb2eef2}
+      \strng{fullhash}{a33ababcca5b83a7777452957fb2eef2}
+      \strng{bibnamehash}{a33ababcca5b83a7777452957fb2eef2}
+      \strng{authorbibnamehash}{a33ababcca5b83a7777452957fb2eef2}
+      \strng{authornamehash}{a33ababcca5b83a7777452957fb2eef2}
+      \strng{authorfullhash}{a33ababcca5b83a7777452957fb2eef2}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1532-4435}
+      \field{journaltitle}{The Journal of Machine Learning Research}
+      \field{langid}{english}
+      \field{lansortorder}{4}
+      \field{number}{1}
+      \field{title}{Accelerating t-SNE using tree-based algorithms}
+      \field{type}{Journal Article}
+      \field{usera}{J}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{volume}{15}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \true{nocite}
+      \field{pages}{3221\bibrangedash 3245}
+      \range{pages}{25}
+      \keyw{RN151}
+    \endentry
+    \entry{RN130}{article}{}
+      \name{author}{7}{}{%
+        {{hash=60c85d9a998b53ed3bd31832db8e0790}{%
+           family={Tang},
+           familyi={T\bibinitperiod},
+           given={Wenhao},
+           giveni={W\bibinitperiod}}}%
+        {{hash=60056c49aacf8e5bbd63dbbc15276f77}{%
+           family={Bertaux},
+           familyi={B\bibinitperiod},
+           given={François},
+           giveni={F\bibinitperiod}}}%
+        {{hash=1f31286dbd871ade7d64d5e0057eeaa5}{%
+           family={Thomas},
+           familyi={T\bibinitperiod},
+           given={Philipp},
+           giveni={P\bibinitperiod}}}%
+        {{hash=e89eedf596f4607edf96aaa6815ed475}{%
+           family={Stefanelli},
+           familyi={S\bibinitperiod},
+           given={Claire},
+           giveni={C\bibinitperiod}}}%
+        {{hash=31fc7e4b2d64dec98db9699077c5b7cc}{%
+           family={Saint},
+           familyi={S\bibinitperiod},
+           given={Malika},
+           giveni={M\bibinitperiod}}}%
+        {{hash=69a052eb0b1bb3d101c7f4d54af285da}{%
+           family={Marguerat},
+           familyi={M\bibinitperiod},
+           given={Samuel},
+           giveni={S\bibinitperiod}}}%
+        {{hash=94f778f3cf27e5c09472d236bdceb6ea}{%
+           family={Shahrezaei},
+           familyi={S\bibinitperiod},
+           given={Vahid},
+           giveni={V\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{b1bcaea8bf325c9b4b39ad71a7272bab}
+      \strng{fullhash}{4f19286033347b2065cb61a86e90349d}
+      \strng{bibnamehash}{b66ead95e23e764e372ac83b7446490e}
+      \strng{authorbibnamehash}{b66ead95e23e764e372ac83b7446490e}
+      \strng{authornamehash}{b1bcaea8bf325c9b4b39ad71a7272bab}
+      \strng{authorfullhash}{4f19286033347b2065cb61a86e90349d}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1367-4803}
+      \field{journaltitle}{Bioinformatics}
+      \field{langid}{english}
+      \field{lansortorder}{4}
+      \field{number}{4}
+      \field{title}{bayNorm: Bayesian gene expression recovery, imputation and normalization for single-cell RNA-sequencing data}
+      \field{type}{Journal Article}
+      \field{usera}{J}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{volume}{36}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \true{nocite}
+      \field{pages}{1174\bibrangedash 1181}
+      \range{pages}{8}
+      \keyw{RN130}
+    \endentry
+    \entry{RN52}{article}{}
+      \name{author}{6}{}{%
+        {{hash=9fa2cf0e5c47e535fa467ba15f0a755b}{%
+           family={Polański},
+           familyi={P\bibinitperiod},
+           given={Krzysztof},
+           giveni={K\bibinitperiod}}}%
+        {{hash=579ff19af45c03843cbd8263600965ac}{%
+           family={Young},
+           familyi={Y\bibinitperiod},
+           given={Matthew\bibnamedelima D},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=fd77317d53eabfa3a7759580994fbefb}{%
+           family={Miao},
+           familyi={M\bibinitperiod},
+           given={Zhichao},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=0a2de0ed156897f1688251165285dd71}{%
+           family={Meyer},
+           familyi={M\bibinitperiod},
+           given={Kerstin\bibnamedelima B},
+           giveni={K\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=755501ce6bb27fbe4d7ac4d6cb3070a1}{%
+           family={Teichmann},
+           familyi={T\bibinitperiod},
+           given={Sarah\bibnamedelima A},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=a8fc5b9ba2071ca0d0aa9ec7f0907004}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={Jong-Eun},
+           giveni={J\bibinithyphendelim E\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{a999f6583508a0923f7b829e9e00c8be}
+      \strng{fullhash}{1392217132f7086ce66d3e174e06ea38}
+      \strng{bibnamehash}{523137b08a6bcc9446b59ca47c555e48}
+      \strng{authorbibnamehash}{523137b08a6bcc9446b59ca47c555e48}
+      \strng{authornamehash}{a999f6583508a0923f7b829e9e00c8be}
+      \strng{authorfullhash}{1392217132f7086ce66d3e174e06ea38}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1367-4803}
+      \field{journaltitle}{Bioinformatics}
+      \field{langid}{english}
+      \field{lansortorder}{4}
+      \field{number}{3}
+      \field{title}{BBKNN: fast batch alignment of single cell transcriptomes}
+      \field{type}{Journal Article}
+      \field{usera}{J}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{volume}{36}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \true{nocite}
+      \field{pages}{964\bibrangedash 965}
+      \range{pages}{2}
+      \keyw{RN52}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
