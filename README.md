@@ -1,7 +1,7 @@
 ![GitHub](https://img.shields.io/github/license/ToryDeng/ZUEL-Thesis)
 ![](https://img.shields.io/badge/Language-TeX-blue)
 # 中南财经政法大学本科毕业论文LaTeX模板
-本模板适用于中南财经政法大学**本科**毕业论文撰写。参考了教务部对本科毕业论文的[基本规范](http://jwc.zuel.edu.cn/2021/0303/c10880a264631/page.htm)（试行）。
+本模板适用于中南财经政法大学**本科**毕业论文撰写。参考了教务部对本科毕业论文的[基本规范](http://jwc.zuel.edu.cn/2021/0303/c10880a264631/page.htm)（试行）。若您觉得此模板对您有帮助，请点亮右上角的小星星（star）~
 
 ***在使用前，请与您的指导老师协商好，确定可以提交pdf格式的文件进行论文审阅，并仔细阅读下面的使用说明。注意：本模板并非官方模板，使用本模板的一切后果由您自行承担。***
 -----------
@@ -16,7 +16,7 @@
 - [反馈与贡献](#反馈与贡献)
 - [软件许可证](#软件许可证)
 ## 背景
-本模板作者在使用word排版本科毕业论文时，深感痛苦。身边的同学也因为使用word，在与内容无关的排版问题上花费了大量时间。在GitHub上搜索财大本科毕业论文的LaTeX模板，虽然有一些相关项目，但要么时间久远，要么难以快速上手。这促使作者下定决心自学LaTeX，在几天内完成了一个较为完善的纯LaTeX模板。理论上，即使是从未接触过LaTeX的同学，在几个小时内也能上手。
+本模板作者在使用word排版本科毕业论文时，深感痛苦。身边的同学也因为使用word，在与内容无关的排版问题上花费了大量时间。在GitHub上搜索财大本科毕业论文的LaTeX模板，虽然有一些相关项目（如[donk3yzz/zuel_zh](https://github.com/donk3yzz/zuel_zh)、[jinlin82/rmd-zuel-thesis-template](https://github.com/jinlin82/rmd-zuel-thesis-template)等），但要么时间久远，要么难以快速上手。这促使作者下定决心自学LaTeX，在几天内完成了一个较为完善的纯LaTeX模板。理论上，即使是从未接触过LaTeX的同学，在几个小时内也能上手。
 ## 主要文件结构
 ```
 │  citations.bib        # 参考文献
