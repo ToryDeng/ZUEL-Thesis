@@ -257,8 +257,8 @@
 % 修改chapter和section
 \renewcommand{\cftdot}{·}
 % 点的距离
-\renewcommand{\cftchapdotsep}{0.25}
-\renewcommand{\cftsecdotsep}{0.5}
+\renewcommand{\cftchapdotsep}{-2}
+\renewcommand{\cftsecdotsep}{-3}
 % 修改字体字号
 \renewcommand{\cftchapfont}{\heiti \zihao{4} \bfseries}
 \renewcommand{\cftsecfont}{\songti \zihao{-4}}
