@@ -5,7 +5,8 @@
 -----------
 
 ## 下载模板
-可以在本页面直接下载，如遇网络问题，也可在[Gitee](https://gitee.com/todd-deng/ZUEL-Thesis)上下载。
+本模板可在[GitHub](https://github.com/ToryDeng/ZUEL-Thesis)和[Gitee](https://gitee.com/todd-deng/ZUEL-Thesis)上下载。您可根据自己的网络情况选择下载地址。
+可以在本页面直接下载，如遇网络问题，也可在上下载。
 下载完压缩包后，推荐上传至[Overleaf平台](https://www.overleaf.com/project/)，设置使用 XeLaTeX 编译器开始写作。
 
 
