@@ -56,12 +56,19 @@
 \RequirePackage{listings}
 \RequirePackage{xcolor}
 \RequirePackage{amsmath}
-\RequirePackage[hidelinks]{hyperref}
+\RequirePackage{hyperref}
 
 
 
 
-
+%%% 超链接
+\hypersetup{
+    colorlinks=true,  % 用颜色标识而不是方框
+    linkcolor=black,  % 目录等中的超链接
+%    hidelinks,  % 隐藏超链接，包括方框和颜色
+    urlcolor=blue,
+    citecolor=green
+}
 
 
 %%% 设置英文字体，CTEX默认中文字体为宋体
