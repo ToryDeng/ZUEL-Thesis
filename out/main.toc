@@ -29,3 +29,5 @@
 \contentsline {section}{\hspace {2.6em}附录一}{6}{section*.5}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\hspace {2.6em}附录二}{7}{lstnumber.Alph0.1.9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{后\hspace {1em}记}{8}{lstnumber.Alph0.1.9}%
