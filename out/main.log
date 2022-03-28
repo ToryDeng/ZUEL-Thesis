@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.2.23)  27 MAR 2022 23:02
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.2.23)  28 MAR 2022 10:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -902,6 +902,64 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
+(d:/Software/texlive/2021/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/09/23 v2.17i AMS math features
+\@mathmargin=\skip129
+
+For additional information on amsmath, use the `?' option.
+(d:/Software/texlive/2021/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(d:/Software/texlive/2021/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks21
+\ex@=\dimen272
+))
+(d:/Software/texlive/2021/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen273
+)
+(d:/Software/texlive/2021/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count444
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count445
+\leftroot@=\count446
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count447
+\DOTSCASE@=\count448
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box54
+\strutbox@=\box55
+\big@size=\dimen274
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count449
+\c@MaxMatrixCols=\count450
+\dotsspace@=\muskip22
+\c@parentequation=\count451
+\dspbrk@lvl=\count452
+\tag@help=\toks22
+\row@=\count453
+\column@=\count454
+\maxfields@=\count455
+\andhelp@=\toks23
+\eqnshift@=\dimen275
+\alignsep@=\dimen276
+\tagshift@=\dimen277
+\tagwidth@=\dimen278
+\totwidth@=\dimen279
+\lineht@=\dimen280
+\@envbody=\toks24
+\multlinegap=\skip130
+\multlinetaggap=\skip131
+\mathdisplay@stack=\toks25
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+)
 (d:/Software/texlive/2021/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2021-02-27 v7.00k Hypertext links for LaTeX
 
@@ -919,9 +977,9 @@ Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 (d:/Software/texlive/2021/texmf-dist/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-\@linkdim=\dimen272
-\Hy@linkcounter=\count444
-\Hy@pagecounter=\count445
+\@linkdim=\dimen281
+\Hy@linkcounter=\count456
+\Hy@pagecounter=\count457
 
 (d:/Software/texlive/2021/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2021-02-27 v7.00k Hyperref: PDFDocEncoding definition (HO)
@@ -936,7 +994,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 (d:/Software/texlive/2021/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count446
+\Hy@SavedSpaceFactor=\count458
 
 (d:/Software/texlive/2021/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2021-02-27 v7.00k Hyperref: PDF Unicode definition (HO)
@@ -949,9 +1007,9 @@ Package hyperref Info: Plain pages OFF on input line 4207.
 Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4445.
-\c@Hy@tempcnt=\count447
+\c@Hy@tempcnt=\count459
 LaTeX Info: Redefining \url on input line 4804.
-\XeTeXLinkMargin=\dimen273
+\XeTeXLinkMargin=\dimen282
 
 (d:/Software/texlive/2021/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -960,9 +1018,9 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count448
-\Field@Width=\dimen274
-\Fld@charsize=\dimen275
+\Fld@menulength=\count460
+\Field@Width=\dimen283
+\Fld@charsize=\dimen284
 Package hyperref Info: Hyper figures OFF on input line 6075.
 Package hyperref Info: Link nesting OFF on input line 6080.
 Package hyperref Info: Hyper index ON on input line 6083.
@@ -978,9 +1036,9 @@ Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
 ge
 with kernel methods
 )
-\Hy@abspage=\count449
-\c@Item=\count450
-\c@Hfootnote=\count451
+\Hy@abspage=\count461
+\c@Item=\count462
+\c@Hfootnote=\count463
 )
 Package hyperref Info: Driver (autodetected): hxetex.
 
@@ -991,11 +1049,11 @@ File: hxetex.def 2021-02-27 v7.00k Hyperref driver for XeTeX
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
-\pdfm@box=\box54
-\c@Hy@AnnotLevel=\count452
-\HyField@AnnotCount=\count453
-\Fld@listcount=\count454
-\c@bookmark@seq@number=\count455
+\pdfm@box=\box56
+\c@Hy@AnnotLevel=\count464
+\HyField@AnnotCount=\count465
+\Fld@listcount=\count466
+\c@bookmark@seq@number=\count467
 
 (d:/Software/texlive/2021/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.st
 y
@@ -1012,7 +1070,7 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 )
-\Hy@SectionHShift=\skip129
+\Hy@SectionHShift=\skip132
 )
 
 Package fontspec Info: Font family 'TimesNewRoman(0)' created for font 'Times
@@ -1046,10 +1104,10 @@ ext;"
 (fontspec)             Roman/BI/OT:script=latn;language=dflt;+smcp;mapping=tex-
 text;"
 
-\c@appdxcounter=\count456
+\c@appdxcounter=\count468
 )
-\@quotelevel=\count457
-\@quotereset=\count458
+\@quotelevel=\count469
+\@quotereset=\count470
  (F:/GithubRepo/ZUEL-Thesis/out/main.aux
 (F:/GithubRepo/ZUEL-Thesis/out/content/abstract.aux)
 (F:/GithubRepo/ZUEL-Thesis/out/content/introduction.aux)
@@ -1100,7 +1158,6 @@ LaTeX Font Info:    Redeclaring math accent \check on input line 14.
 LaTeX Font Info:    Redeclaring math accent \hat on input line 14.
 LaTeX Font Info:    Redeclaring math accent \dot on input line 14.
 LaTeX Font Info:    Redeclaring math accent \mathring on input line 14.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 14.
 LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 14.
 LaTeX Font Info:    Redeclaring math symbol \Delta on input line 14.
 LaTeX Font Info:    Redeclaring math symbol \Theta on input line 14.
@@ -1212,7 +1269,7 @@ Package biblatex Info: ... file 'main.bbl' found.
 (F:/GithubRepo/ZUEL-Thesis/out/main.bbl)
 Package biblatex Info: Reference section=0 on input line 14.
 Package biblatex Info: Reference segment=0 on input line 14.
-\c@lstlisting=\count459
+\c@lstlisting=\count471
 Package hyperref Info: Link coloring OFF on input line 14.
 
 (d:/Software/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -1225,7 +1282,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count460
+\c@section@level=\count472
 )
 LaTeX Info: Redefining \ref on input line 14.
 LaTeX Info: Redefining \pageref on input line 14.
@@ -1271,19 +1328,12 @@ File: cover_imgs/name.png Graphic file (type bmp)
 <cover_imgs/name.png>
 File: cover_imgs/badge.png Graphic file (type bmp)
 <cover_imgs/badge.png>
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12.045> on input line 18.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 18.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 18.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.05249> on input line 18.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.53937> on input line 18.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7.52812> on input line 18.
- [1
+
+
+LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <10.53937> not available
+(Font)              size <10.95> substituted on input line 18.
+
+[1
 
 
 
@@ -1375,6 +1425,15 @@ Package fontspec Info: Font family 'FandolSong-Regular(1)' created for font
 
  (./content/chapter1.tex
 一、
+
+Overfull \hbox (16.47986pt too wide) in paragraph at lines 6--8
+[]\TU/FandolSong-Regular(1)/m/n/12.045 插 入 超 链 接 的 方 式 \TU/TimesNewRoman(0)/m/n
+/12.045 1\TU/FandolSong-Regular(1)/m/n/12.045 ：| []百 度[]。|  插 入 超 链 接 的 方 式 \TU
+/TimesNewRoman(0)/m/n/12.045 2\TU/FandolSong-Regular(1)/m/n/12.045 ：| []$[][][]
+[][] [] [] [] [][][][][][] [] [][][] [] [][][][][][][][] [] [][][][][][][][][][
+][][]$[] 
+ []
+
 File: imgs/蛋炒饭.jpeg Graphic file (type bmp)
 <imgs/蛋炒饭.jpeg>
 ) [2
@@ -1387,12 +1446,6 @@ File: imgs/蛋炒饭.jpeg Graphic file (type bmp)
 
  (./content/chapter2.tex
 二、
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 12.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 12.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9.03374> on input line 23.
 ) [3
 
 
@@ -1455,6 +1508,10 @@ Package fontspec Info: Font family 'FandolFang-Regular(0)' created for font
 (F:/GithubRepo/ZUEL-Thesis/out/content/conclusion.aux)
 (F:/GithubRepo/ZUEL-Thesis/out/content/appendices.aux)
 (F:/GithubRepo/ZUEL-Thesis/out/content/epilogue.aux))
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.41063pt have occurred.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: ABAA530998222BCA0695636A69C9FF34;1194.
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -1462,12 +1519,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26262 strings out of 478866
- 551948 string characters out of 5864661
- 1456595 words of memory out of 5000000
- 45670 multiletter control sequences out of 15000+600000
- 412185 words of font info for 127 fonts, out of 8000000 for 9000
+ 26900 strings out of 478866
+ 560139 string characters out of 5864661
+ 1468182 words of memory out of 5000000
+ 46289 multiletter control sequences out of 15000+600000
+ 414213 words of font info for 136 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 115i,15n,118p,1199b,4671s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 115i,15n,118p,1199b,4673s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on F:/GithubRepo/ZUEL-Thesis/out/main.pdf (14 pages).

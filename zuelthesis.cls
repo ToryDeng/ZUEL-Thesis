@@ -55,6 +55,7 @@
 \RequirePackage[backend=biber, style=gb7714-2015, sorting=gbnytd]{biblatex} % 参考文献格式
 \RequirePackage{listings}
 \RequirePackage{xcolor}
+\RequirePackage{amsmath}
 \RequirePackage[hidelinks]{hyperref}
 
 
@@ -184,7 +185,7 @@
 \newenvironment{cnabstract}[1]{
     \def\@cnkeywords {#1}
     \newpage
-    \pagenumbering{arabic} %开始罗马数字
+    \pagenumbering{arabic} %开始罗马数字页码
     \vspace*{12pt}
     \centerline{\zihao{-2} \textbf{摘\hspace{2em}要}}
     \vspace*{12pt}
@@ -210,7 +211,7 @@
 }{
     \par
     \vspace*{12pt}
-    \zihao{-3} \textbf{Keywords:}{\zihao{-4} \@engkeywords}
+    \zihao{-3} \textbf{Key words:}{\zihao{-4} \@engkeywords}
 }
 
 
@@ -256,8 +257,8 @@
 % 修改chapter和section
 \renewcommand{\cftdot}{·}
 % 点的距离
-\renewcommand{\cftchapdotsep}{0.5}
-\renewcommand{\cftsecdotsep}{1}
+\renewcommand{\cftchapdotsep}{0.25}
+\renewcommand{\cftsecdotsep}{0.5}
 % 修改字体字号
 \renewcommand{\cftchapfont}{\heiti \zihao{4} \bfseries}
 \renewcommand{\cftsecfont}{\songti \zihao{-4}}
@@ -295,6 +296,12 @@
     \vspace*{12pt}
     \centering \songti \textbf{\zihao{-2}{#1}} 
     \vspace*{12pt}
+}
+
+
+%%% 公式
+\renewcommand{\theequation}{%
+    式\arabic{equation}
 }
 
 
