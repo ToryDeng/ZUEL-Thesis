@@ -52,7 +52,7 @@
 \RequirePackage{caption}
 \RequirePackage{booktabs}
 \RequirePackage{pifont}  % 带圈脚注
-\RequirePackage[backend=biber, style=gb7714-2015, sorting=gbnytd]{biblatex} % 参考文献格式
+\RequirePackage[backend=biber, style=gb7714-2015, sorting=gb7714-2015]{biblatex} % 参考文献格式
 \RequirePackage{listings}
 \RequirePackage{xcolor}
 \RequirePackage{amsmath}
