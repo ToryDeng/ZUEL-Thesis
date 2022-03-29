@@ -52,7 +52,7 @@
 \RequirePackage{caption}
 \RequirePackage{booktabs}
 \RequirePackage{pifont}  % 带圈脚注
-\RequirePackage[backend=biber, style=gb7714-2015, sorting=gb7714-2015]{biblatex} % 参考文献格式
+\RequirePackage[backend=biber, style=gb7714-2015, sorting=gb7714-2015, sortlocale=zh__pinyin]{biblatex} % 参考文献格式
 \RequirePackage{listings}
 \RequirePackage{xcolor}
 \RequirePackage{amsmath}
@@ -320,6 +320,7 @@
 \newcommand{\appdx}[1]{
     % 第一个附录在大标题下，从第二个目录开始另起一页
     \ifnum \value{appdxcounter}=1 \par \else \newpage \fi 
+    \phantomsection  % reestablish the hyper anchors
     \addcontentsline{toc}{section}{\hspace{2.6em}附录\chinese{appdxcounter}}
     \leftline{\zihao{4} \textbf{附录\chinese{appdxcounter}}}
     \vspace*{12pt}
