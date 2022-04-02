@@ -25,10 +25,10 @@
 ```列示顺序。主要参考文献列示顺序为中文在前，外文在后。中文文献按第一作者姓氏的拼音增序排列，外文文献按第一作者名的字母增序排列，第一作者相同的文献则按发表时间增序排列。```
   本模板支持按照此顺序自动对参考文献排序。
 4. 支持从源代码文件直接导入代码，无需手动复制粘贴（支持中文注释）。
-5. 已设置好超链接颜色。
+5. 已设置好超链接颜色，跨行超链接自动换行。
 ## 主要文件结构
 ```
-│  thesis.bib           # 参考文献
+│  thesis.bib           # 存放参考文献
 │  main.tex             # 主文件
 │  zuelthesis.cls       # LaTeX类
 │          
@@ -56,7 +56,7 @@
     └─ main.pdf      # 输出文件
 ```
 ## 下载模板
-本模板压缩包可在[GitHub](https://github.com/ToryDeng/ZUEL-Thesis)和[Gitee](https://gitee.com/todd-deng/ZUEL-Thesis)上下载。您可根据自己的网络情况选择下载地址。
+本模板压缩包可在[GitHub](https://github.com/ToryDeng/ZUEL-Thesis)和[Gitee](https://gitee.com/ToryDeng/ZUEL-Thesis)上下载。您可根据自己的网络情况选择下载地址。
 
 下载完压缩包后，推荐上传至[Overleaf平台](https://www.overleaf.com/project/)，设置使用 **XeLaTeX** 编译器开始写作。
 
