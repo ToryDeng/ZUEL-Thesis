@@ -43,6 +43,7 @@
 \RequirePackage{fontspec}
 \RequirePackage{makecell}
 \RequirePackage{array}
+\RequirePackage{multirow}
 \RequirePackage{tabularx}
 \RequirePackage{graphicx}
 \RequirePackage{geometry}  % [showframe]
@@ -54,9 +55,11 @@
 \RequirePackage{pifont}  % 带圈脚注
 \RequirePackage[backend=biber, style=gb7714-2015, sorting=gb7714-2015, sortlocale=zh__pinyin]{biblatex} % 参考文献格式
 \RequirePackage{listings}
-\RequirePackage{xcolor}
+\RequirePackage{xcolor}  % 代码颜色
 \RequirePackage{amsmath}
 \RequirePackage{hyperref}
+\RequirePackage{xurl}  % 解决超长url换行问题
+\RequirePackage[hang,flushmargin,perpage]{footmisc}  % 取消脚注缩进
 
 
 
@@ -80,7 +83,7 @@
 \geometry{left=2.5cm,right=2cm,top=3cm,bottom=2.5cm}
 \savegeometry{globel}
 \setlength{\parskip}{0em}  % 段间距等于行间距
-\setstretch{1.25}
+\setstretch{1.4}  % 经测试，1.4大致对应word中的1.25倍行距
 \setlength{\parindent}{2em}
 
 
@@ -96,11 +99,11 @@
     \zihao{-0}{\textbf{本科毕业论文（设计）}} \\
     \vspace*{24pt}
     \includegraphics[scale=0.35]{cover_imgs/badge.png} \\
-    \vspace*{24pt}
+    \vspace*{36pt}
 \end{center}
 % 制作封面表格
 \begin{center}
-    \renewcommand\arraystretch{2}
+    \renewcommand\arraystretch{1.9}
     \begin{tabular}{rc}
         \zihao{4}{\textbf{论文题目：}}&
         \multicolumn{1}{b{8cm}}{\zihao{4}{\makecell{\@title}}} \\ [-0.1cm]   \cline{2-2}
@@ -286,10 +289,6 @@
 %%% 图表标题
 \renewcommand{\thefigure}{\arabic{figure}}
 \renewcommand{\thetable}{\arabic{table}}
-\newcommand{\tablecaption}{
-    \setlength{\abovecaptionskip}{-12pt}
-    \caption
-}
 \captionsetup{labelsep=quad, font={bf, normalsize}}
 
 

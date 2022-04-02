@@ -58,7 +58,7 @@
 ## 下载模板
 本模板压缩包可在[GitHub](https://github.com/ToryDeng/ZUEL-Thesis)和[Gitee](https://gitee.com/todd-deng/ZUEL-Thesis)上下载。您可根据自己的网络情况选择下载地址。
 
-下载完压缩包后，推荐上传至[Overleaf平台](https://www.overleaf.com/project/)，设置使用 XeLaTeX 编译器开始写作。
+下载完压缩包后，推荐上传至[Overleaf平台](https://www.overleaf.com/project/)，设置使用 **XeLaTeX** 编译器开始写作。
 
 
 ## 使用模板
@@ -72,7 +72,7 @@
 * **图片**：在`content/chapter1.tex`文件中有图片的使用演示，根据演示创建您自己的图片并在正文中引用它们。图片最好放在`imgs`文件夹中。
 * **表格**：在`content/chapter2.tex`文件中有表格的使用演示，根据演示创建您自己的表格并在正文中引用它们。表格创建推荐使用网站[Tables Generator](https://www.tablesgenerator.com/)，可根据表格生成相应的LaTeX代码。
 
-注意：由于图表标题到图表的间距问题，本模板自定义了`\tablecaption`命令来生成表格标题。对图片仍然使用`\caption`命令。
+注意：示例pdf文件中的表格标题到表格的间距略大，但作者实际使用中创建更为复杂的表格没有问题。
 #### 公式
 LaTeX的数学公式编辑是其一大特色。由于内容较多，请您自行学习并使用（很容易学会）。在`content\chapter2.tex`中给出了一个多行公式以及引用公式的示例。
 
