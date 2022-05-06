@@ -291,10 +291,6 @@
 \renewcommand{\thetable}{\arabic{table}}
 \captionsetup{labelsep=quad, font={bf, normalsize}}
 
-
-%%% 脚注
-\renewcommand{\thefootnote}{\ding{\numexpr171+\value{footnote}}}
-
 %%% 参考文献格式
 \renewcommand{\bibfont}{\zihao{5}}
 \defbibheading{zuelbib}[\bibname]{%

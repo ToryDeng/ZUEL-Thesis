@@ -1,5 +1,7 @@
 ![GitHub](https://img.shields.io/github/license/ToryDeng/ZUEL-Thesis)
 ![](https://img.shields.io/badge/Language-TeX-blue)
+![GitHub Repo stars](https://img.shields.io/github/stars/ToryDeng/ZUEL-Thesis)
+![GitHub repo size](https://img.shields.io/github/repo-size/ToryDeng/ZUEL-Thesis)
 # 中南财经政法大学本科毕业论文LaTeX模板
 本模板适用于中南财经政法大学**本科**毕业论文撰写。参考了教务部对本科毕业论文的[基本规范](http://jwc.zuel.edu.cn/2021/0303/c10880a264631/page.htm)（试行）。若您觉得此模板对您有帮助，请点亮右上角的小星星（star）~
 
@@ -52,8 +54,7 @@
 │      蛋炒饭.jpeg    # 演示图片
 │      
 └─out
-    │  
-    └─ main.pdf      # 输出文件
+       main.pdf      # 输出的PDF文件
 ```
 ## 下载模板
 本模板压缩包可在[GitHub](https://github.com/ToryDeng/ZUEL-Thesis)和[Gitee](https://gitee.com/ToryDeng/ZUEL-Thesis)上下载。您可根据自己的网络情况选择下载地址。
@@ -80,7 +81,7 @@ LaTeX的数学公式编辑是其一大特色。由于内容较多，请您自行
 * [在线公式编辑器](https://latexlive.com/)
 * [语法手册](http://www.uinio.com/Math/LaTex/)
 #### 脚注
-本模板采取pifont的带圈脚注解决方案，缺陷是每页最多支持10个脚注，但对于绝大多数情况应当足够使用。注意`content/chapter2.tex`中对脚注为参考文献的处理。
+答辩老师要求脚注不带圈。注意`content/chapter2.tex`中对脚注为参考文献这一情况的处理。
 #### 参考文献
 在`thesis.bib`中填写您的参考文献（BibTex格式），模板会按照中英文分开显示，并根据作者、年份排序。
 * **中国知网**：截止至2022.03.28，知网目前无法直接导出BibTex格式文件，一个替代方法是使用[百度学术](https://xueshu.baidu.com/)。
