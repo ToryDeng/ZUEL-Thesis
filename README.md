@@ -71,7 +71,7 @@
 在`content`文件夹中有引言、摘要、正文、结论、后记等示例文件，将示例中的文字替换为您的论文内容。
 #### 图表内容
 * **图片**：在`content/chapter1.tex`文件中有图片的使用演示，根据演示创建您自己的图片并在正文中引用它们。图片最好放在`imgs`文件夹中。
-* **表格**：在`content/chapter2.tex`文件中有表格的使用演示，根据演示创建您自己的表格并在正文中引用它们。表格创建推荐使用Excel插件Excel2LaTeX([安装和使用教程](https://blog.csdn.net/qq_16763983/article/details/122912373))网站[Tables Generator](https://www.tablesgenerator.com/)，可根据表格生成相应的LaTeX代码。
+* **表格**：在`content/chapter2.tex`文件中有表格的使用演示，根据演示创建您自己的表格并在正文中引用它们。表格创建推荐使用Excel插件Excel2LaTeX([安装和使用教程](https://blog.csdn.net/qq_16763983/article/details/122912373))或者网站[Tables Generator](https://www.tablesgenerator.com/)，可根据表格生成相应的LaTeX代码。
 
 注意：示例pdf文件中的表格标题到表格的间距略大，但作者实际使用中创建更为复杂的表格没有问题。
 #### 公式
