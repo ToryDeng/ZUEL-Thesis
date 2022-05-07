@@ -60,6 +60,8 @@
 \RequirePackage{hyperref}
 \RequirePackage{xurl}  % 解决超长url换行问题
 \RequirePackage[hang,flushmargin,perpage]{footmisc}  % 取消脚注缩进
+\usepackage{chngcntr}
+
 
 
 
@@ -287,6 +289,8 @@
 
 
 %%% 图表标题
+\counterwithout{figure}{chapter}
+\counterwithout{table}{chapter}
 \renewcommand{\thefigure}{\arabic{figure}}
 \renewcommand{\thetable}{\arabic{table}}
 \captionsetup{labelsep=quad, font={bf, normalsize}}
