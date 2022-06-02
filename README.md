@@ -95,7 +95,19 @@ LaTeX的数学公式编辑是其一大特色。由于内容较多，请您自行
 #### 目录
 您无需手动生成目录，只需要在`main.tex`中调节行距因子以获得最佳目录显示。在目录中点击章节名可直接跳转到对应的章节。
 ### 编译
-对于Overleaf，只需点击页面中的`compile`按钮；如果本地编译，则需多次运行。
+对于Overleaf，只需点击页面中的`compile`按钮。注意：如果在本地第一次编译，可能会出现如下警告导致无法显示参考文献:
+```
+LaTeX Warning: There were undefined references.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)       main
+(biblatex)       and rerun LaTeX afterwards.
+```
+此时需要执行命令
+```
+biber main
+```
+然后再编译，即可正常显示参考文献。
 
 ## 反馈与贡献
 由于作者水平、时间、精力都有限，本模板一定还有众多不完善的地方，虽然作者有心修正，奈何分身乏术，所以您有任何问题，都可以在[GitHub讨论区](https://github.com/ToryDeng/ZUEL-Thesis/discussions)里提出，但作者不保证及时回答。也欢迎新的贡献者能参与维护该项目！~~（以便作者划水）~~
