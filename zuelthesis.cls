@@ -83,7 +83,7 @@
 
 %%% 页面设置
 \geometry{left=2.5cm,right=2cm,top=3cm,bottom=2.5cm}
-\savegeometry{globel}
+\savegeometry{global}
 \setlength{\parskip}{0em}  % 段间距等于行间距
 \setstretch{1.4}  % 经测试，1.4大致对应word中的1.25倍行距
 \setlength{\parindent}{2em}
@@ -125,14 +125,16 @@
         \multicolumn{1}{c}{\zihao{4}{\today}}\\ [-0.2cm]  \cline{2-2}
     \end{tabular}
 \end{center}
+
+\loadgeometry{global}  % 恢复页面设置
 }
 
 
 
 %%% 创建作者声明
+
 \newcommand{\makestatement}{
     \newpage
-    \loadgeometry{globel}
     \thispagestyle{empty}  % 无页码
     \vspace*{12pt}
     \centerline{\zihao{2}{\textbf{作者声明}}}
