@@ -232,6 +232,7 @@
 
 %%% 自定义目录和多级标题
 % 用ctexset才能在目录中正常显示
+\setcounter{secnumdepth}{3} %解决第四级标题计数问题
 \ctexset{
     contentsname = {目\hspace{1em}录},
     chapter = {
@@ -254,6 +255,14 @@
         format += \bfseries \raggedright \songti \zihao{-4},
         name = {\hspace{2em},.},
         number = \arabic{subsection},
+        beforeskip = 0pt,
+        afterskip = 0pt,
+        aftername = \hspace{0pt}
+    },
+    subsubsection = {
+        format += \bfseries \raggedright \songti \zihao{-4},
+        name = {\hspace{2em}（,）},
+        number = \arabic{subsubsection},
         beforeskip = 0pt,
         afterskip = 0pt,
         aftername = \hspace{0pt}
@@ -309,7 +318,7 @@
 
 %%% 公式
 \renewcommand{\theequation}{%
-    式\arabic{equation}
+    式\thechapter-\arabic{equation}
 }
 
 
