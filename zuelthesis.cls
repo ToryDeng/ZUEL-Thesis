@@ -134,7 +134,7 @@
 %%% 定义只含页眉的样式
 \fancypagestyle{onlyheading}{
     \pagestyle{fancy}
-    \chead{\zihao{-5} 中南财经政法大学\number\year 届本科生毕业论文（设计）}
+    \chead{\zihao{-5} \color{gray}{中南财经政法大学\number\year 届本科生毕业论文（设计）}}
     \cfoot{}
 }
 
@@ -198,7 +198,7 @@
 \fancypagestyle{plain}{
     \pagestyle{fancy}
     \fancyhf{}
-    \chead{\zihao{-5} 中南财经政法大学\number\year 届本科生毕业论文（设计）}
+    \chead{\zihao{-5} \color{gray}{中南财经政法大学\number\year 届本科生毕业论文（设计）}}
     \cfoot{\zihao{-5} -\;\thepage\;-}
     \renewcommand{\footrulewidth}{0pt}
 }
