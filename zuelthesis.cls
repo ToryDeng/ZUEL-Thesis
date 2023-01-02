@@ -40,6 +40,7 @@
 
 %%% 宏包设置
 \LoadClass[zihao=-4, a4paper, oneside, UTF8, fancyhdr]{ctexbook} %支持中文
+\RequirePackage[UseMSWordMultipleLineSpacing, MSWordLineSpacingMultiple=1.25]{zhlineskip}
 \RequirePackage{fontspec}
 \RequirePackage{makecell}
 \RequirePackage{array}
@@ -60,7 +61,8 @@
 \RequirePackage{hyperref}
 \RequirePackage{xurl}  % 解决超长url换行问题
 \RequirePackage[hang,flushmargin,perpage]{footmisc}  % 取消脚注缩进
-\usepackage{chngcntr}
+\RequirePackage{chngcntr}
+\RequirePackage{xunicode-addon}
 
 
 
@@ -92,68 +94,76 @@
 
 %%% 创建封面
 \newcommand{\makecover}{
-    \newgeometry{left=3.18cm,right=3.18cm,top=2.54cm,bottom=2.54cm} %封面页边距对称
+    \newgeometry{left=2.5cm,right=2cm,top=3cm,bottom=2.5cm} %封面页边距对称
     \thispagestyle{empty}  % 无页码
     % 插入封面图片
 \begin{center}
-    \includegraphics[scale=0.15]{cover_imgs/name.png} \\
+    \includegraphics[scale=0.15]{cover_imgs/name} \\
     \vspace*{12pt}
-    \zihao{-0}{\textbf{本科毕业论文（设计）}} \\
+    \zihao{-0}{\textbf{本科生毕业论文（设计）}} \\
     \vspace*{24pt}
-    \includegraphics[scale=0.35]{cover_imgs/badge.png} \\
+    \includegraphics[scale=0.35]{cover_imgs/badge} \\
     \vspace*{36pt}
 \end{center}
 % 制作封面表格
 \begin{center}
     \renewcommand\arraystretch{1.9}
     \begin{tabular}{rc}
-        \zihao{4}{\textbf{论文题目：}}&
-        \multicolumn{1}{b{8cm}}{\zihao{4}{\makecell{\@title}}} \\ [-0.1cm]   \cline{2-2}
-        \zihao{4}{\textbf{姓\qquad 名：}}&
-        \multicolumn{1}{c}{\zihao{4}{\@author}}  \\ [-0.2cm] \cline{2-2}
-        \zihao{4}{\textbf{学\qquad 号：}}&
-        \multicolumn{1}{c}{\zihao{4}{\@studentnumber}}\\ [-0.2cm] \cline{2-2}
-        \zihao{4}{\textbf{班\qquad 级：}}&
-        \multicolumn{1}{c}{\zihao{4}{\@class}}\\ [-0.2cm] \cline{2-2}
-        \zihao{4}{\textbf{专\qquad 业：}}& 
-        \multicolumn{1}{c}{\zihao{4}{\@major}}\\ [-0.2cm] \cline{2-2}
-        \zihao{4}{\textbf{学\qquad 院：}}&
-        \multicolumn{1}{c}{\zihao{4}{\@school}}\\ [-0.2cm] \cline{2-2}
-        \zihao{4}{\textbf{指导教师：}}&
-        \multicolumn{1}{c}{\zihao{4}{\@advisor\quad \@advisortitle}}\\ [-0.2cm] \cline{2-2}
-        \zihao{4}{\textbf{完成时间：}}&
-        \multicolumn{1}{c}{\zihao{4}{\today}}\\ [-0.2cm]  \cline{2-2}
+        \zihao{4}{\fangsong 论文题目\ ：}&
+        \multicolumn{1}{b{8cm}}{\zihao{4}{\textbf{\makecell{\@title}}}} \\ [-0.1cm]   \cline{2-2}
+        \zihao{4}{\fangsong 姓\qquad 名\ ：}&
+        \multicolumn{1}{c}{\zihao{4}{\textbf{\@author}}}  \\ [-0.2cm] \cline{2-2}
+        \zihao{4}{\fangsong 学\qquad 号\ ：}&
+        \multicolumn{1}{c}{\zihao{4}{\textbf{\@studentnumber}}}\\ [-0.2cm] \cline{2-2}
+        \zihao{4}{\fangsong 班\qquad 级\ ：}&
+        \multicolumn{1}{c}{\zihao{4}{\textbf{\@class}}}\\ [-0.2cm] \cline{2-2}
+        \zihao{4}{\fangsong 专\qquad 业\ ：}&
+        \multicolumn{1}{c}{\zihao{4}{\textbf{\@major}}}\\ [-0.2cm] \cline{2-2}
+        \zihao{4}{\fangsong 学\qquad 院\ ：}&
+        \multicolumn{1}{c}{\zihao{4}{\textbf{\@school}}}\\ [-0.2cm] \cline{2-2}
+        \zihao{4}{\fangsong 指导教师\ ：}&
+        \multicolumn{1}{c}{\zihao{4}{\textbf{\@advisor\quad \@advisortitle}}}\\ [-0.2cm] \cline{2-2}
+        \zihao{4}{\fangsong 完成时间\ ：}&
+        \multicolumn{1}{c}{\zihao{4}{\textbf{\today}}}\\ [-0.2cm]  \cline{2-2}
     \end{tabular}
 \end{center}
 
 \loadgeometry{global}  % 恢复页面设置
 }
 
+%%% 定义只含页眉的样式
+\fancypagestyle{onlyheading}{
+    \pagestyle{fancy}
+    \chead{\zihao{-5} 中南财经政法大学\number\year 届本科生毕业论文（设计）}
+    \cfoot{}
+}
 
 
 %%% 创建作者声明
-
 \newcommand{\makestatement}{
     \newpage
-    \thispagestyle{empty}  % 无页码
+    \thispagestyle{onlyheading}  % 无页码
     \vspace*{12pt}
     \centerline{\zihao{2}{\textbf{作者声明}}}
     \vspace*{12pt}
-    % \begin{spacing}{1.5}
-    \zihao{4}{本论文报告是在老师的指导下由本人独立撰写完成的，没有剽窃、抄袭、造假等违反道德、学术规范和其他侵权行为。对本论文报告的研究做出重要贡献的个人和集体，均已在文中以明确方式标明。因本论文报告引起的法律结果完全由本人承担。\par 特此声明。}
-    % \end{spacing}
+    \begin{spacing}{2}
+    \zihao{4}{本毕业论文（设计）是在导师的指导下由本人独立撰写完成的，没有剽窃、抄袭、造假等违反道德、学术规范和其他侵权行为。
+    对本论文（设计）的研究做出重要贡献的个人和集体，均已在文中以明确方式标明。因本毕业论文（设计）引起的法律结果完全由本人承担。
+    \par 毕业论文（设计）成果归中南财经政法大学所有。
+    \par 特此声明。}
+    \end{spacing}
     
 
 % 空行
 \vspace*{36pt}
 % 签名表
 \begin{flushright}
-\renewcommand\arraystretch{1}
-    \begin{tabular}[r]{rl>{\centering\arraybackslash }m{10em}}
-    \zihao{4}{作者专业}                 & : & \zihao{4}{\@major}       \\
-    \zihao{4}{作者学号}                 & : & \zihao{4}{\@studentnumber}  \\
-    \zihao{4}{作者签名}                 & : & \multicolumn{1}{r}{\zihao{5}{\kaishu{（手写有效）}}} \\
-    \multicolumn{1}{l}{} & \multicolumn{2}{r}{\zihao{4}{\textbf{年\quad 月\quad 日}}\zihao{5}{\kaishu{（手填）}}}   
+\renewcommand\arraystretch{2}
+    \begin{tabular}[r]{rl>{\centering\arraybackslash }m{12em}}
+    \zihao{4}{作者专业}                 & : & \zihao{4}{\textbf \@major}       \\
+    \zihao{4}{作者学号}                 & : & \zihao{4}{\textbf \@studentnumber}  \\
+    \zihao{4}{作者签名}                 & : &  \\
+    \multicolumn{1}{l}{} & \multicolumn{2}{r}{\zihao{4}{\textbf{年\quad 月\quad 日}}}
     \end{tabular}
 \end{flushright}
 }
@@ -163,7 +173,7 @@
 %%% 创建标题页
 \renewcommand{\maketitle}{
     \begin{titlepage}
-    
+        \thispagestyle{onlyheading}
      \begin{center}
         \vspace*{8em}
         \begin{spacing}{1.0}  % 局部定义为单倍行距
@@ -189,7 +199,7 @@
     \pagestyle{fancy}
     \fancyhf{}
     \chead{\zihao{-5} 中南财经政法大学\number\year 届本科生毕业论文（设计）}
-    \cfoot{\zihao{-5} -\thepage -}
+    \cfoot{\zihao{-5} -\;\thepage\;-}
     \renewcommand{\footrulewidth}{0pt}
 }
 \pagestyle{plain}
@@ -225,7 +235,7 @@
 }{
     \par
     \vspace*{12pt}
-    \zihao{-3} \textbf{Key words:}{\zihao{-4} \@engkeywords}
+    \zihao{-3} \textbf{Keywords:}{\zihao{-4} \@engkeywords}
 }
 
 
@@ -234,7 +244,7 @@
 % 用ctexset才能在目录中正常显示
 \setcounter{secnumdepth}{3} %解决第四级标题计数问题
 \ctexset{
-    contentsname = {目\hspace{1em}录},
+    contentsname = {目\hspace{2em}录},
     chapter = {
         format += \bfseries \centering \heiti \zihao{3},
         name = {,、},
@@ -320,6 +330,10 @@
 \renewcommand{\theequation}{%
     式\thechapter-\arabic{equation}
 }
+
+%%% 脚注
+\renewcommand{\thefootnote}{\ding{\numexpr191+\value{footnote}}}
+
 
 
 %%% 附录
