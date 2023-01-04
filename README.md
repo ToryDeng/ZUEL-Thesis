@@ -67,7 +67,7 @@
 
 
 ## 使用模板
-[out/main.pdf](https://github.com/ToryDeng/ZUEL-Thesis/blob/master/out/main.pdf)文件是已经编译好的模板。您可以在使用前先查看一下模板，确认是否符合您的需求。使用本模板需要对LaTeX有基本的了解。推荐先阅读[一份（不太）简短的$\LaTeX 2\varepsilon$ 介绍](https://github.com/CTeX-org/lshort-zh-cn/releases)
+[out/main.pdf](https://github.com/ToryDeng/ZUEL-Thesis/blob/master/out/main.pdf)文件是已经编译好的模板。您可以在使用前先查看一下模板，确认是否符合您的需求。使用本模板需要对LaTeX有基本的了解。推荐先阅读一份（不太）简短的$\LaTeX 2\varepsilon$介绍
 
 
 ### 填写基本信息
