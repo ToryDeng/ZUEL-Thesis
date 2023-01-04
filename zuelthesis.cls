@@ -87,7 +87,6 @@
 \geometry{left=2.5cm,right=2cm,top=3cm,bottom=2.5cm}
 \savegeometry{global}
 \setlength{\parskip}{0em}  % 段间距等于行间距
-\setstretch{1.4}  % 经测试，1.4大致对应word中的1.25倍行距
 \setlength{\parindent}{2em}
 
 
@@ -315,6 +314,7 @@
 \renewcommand{\thefigure}{\arabic{figure}}
 \renewcommand{\thetable}{\arabic{table}}
 \captionsetup{labelsep=quad, font={bf, normalsize}}
+
 
 %%% 参考文献格式
 \renewcommand{\bibfont}{\zihao{5}}

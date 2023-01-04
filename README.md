@@ -67,7 +67,9 @@
 
 
 ## 使用模板
-[out/main.pdf](https://github.com/ToryDeng/ZUEL-Thesis/blob/master/out/main.pdf)文件是已经编译好的模板。您可以在使用前先查看一下模板，确认是否符合您的需求。
+[out/main.pdf](https://github.com/ToryDeng/ZUEL-Thesis/blob/master/out/main.pdf)文件是已经编译好的模板。您可以在使用前先查看一下模板，确认是否符合您的需求。使用本模板需要对LaTeX有基本的了解。推荐先阅读[一份（不太）简短的$\LaTeX 2\varepsilon$ 介绍](https://github.com/CTeX-org/lshort-zh-cn/releases)
+
+
 ### 填写基本信息
 在`main.tex`中，填写您的论文题目、姓名、学号、学院、专业、班级等基本信息。虽然模板会根据信息自动更新封面页、作者声明和标题页，仍然请您再次检查以确认无误。本模板使用系统的当前时间作为论文的完成时间。
 ### 填写论文主要内容
@@ -75,15 +77,15 @@
 在`content`文件夹中有引言、摘要、正文、结论、后记等示例文件，将示例中的文字替换为您的论文内容。
 #### 图表内容
 * **图片**：在`content/chapter1.tex`文件中有图片的使用演示，根据演示创建您自己的图片并在正文中引用它们。图片最好放在`imgs`文件夹中。
-* **表格**：在`content/chapter2.tex`文件中有表格的使用演示，根据演示创建您自己的表格并在正文中引用它们。表格创建推荐使用Excel插件Excel2LaTeX([安装和使用教程](https://blog.csdn.net/qq_16763983/article/details/122912373))或者网站[Tables Generator](https://www.tablesgenerator.com/)，可根据表格生成相应的LaTeX代码。
+* **表格**：在`content/chapter1.tex`和`content/chapter2.tex`文件中都有表格的使用演示，根据演示创建您自己的表格并在正文中引用它们。表格创建推荐使用Excel插件Excel2LaTeX([安装和使用教程](https://blog.csdn.net/qq_16763983/article/details/122912373))或者网站[Tables Generator](https://www.tablesgenerator.com/)，可根据表格生成相应的LaTeX代码。
 
-注意：示例pdf文件中的表格标题到表格的间距略大，但作者实际使用中创建更为复杂的表格没有问题。
 #### 公式
 LaTeX的数学公式编辑是其一大特色。由于内容较多，请您自行学习并使用（很容易学会）。在`content\chapter2.tex`中给出了一个多行公式以及引用公式的示例。
 
 ##### 推荐网站：
 * [在线公式编辑器](https://latexlive.com/)
 * [语法手册](http://www.uinio.com/Math/LaTex/)
+* [Detexify:特殊符号识别](http://detexify.kirelabs.org/classify.html)
 #### 脚注
 本模板采取pifont包的带圈脚注解决方案，缺陷是每页最多支持10个脚注，但对于绝大多数情况应当足够使用。注意`content/chapter2.tex`中对脚注为参考文献这一情况的处理。
 #### 参考文献

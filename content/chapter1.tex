@@ -7,7 +7,7 @@
 插入超链接的方式1：\href{http://www.baidu.com}{百度}。 \par
 插入超链接的方式2：\url{https://github.com/ToryDeng/ZUEL-Thesis}
 
-\begin{figure}[h]
+\begin{figure}[ht]
     \centering
     \includegraphics[scale=0.1]{imgs/蛋炒饭.jpeg}
     \caption{没有放葱的蛋炒饭没有灵魂}
@@ -15,18 +15,18 @@
 \end{figure}
 
 随便写点什么吧！随便写点什么吧！随便写点什么吧！随便写点什么吧！随便写点什么吧！
-\begin{table}[h]\zihao{5}
-
+\begin{table}[htbp]
+\zihao{5}
+\centering
+\captionsetup{skip=0pt} % 调整表格标题和表格之间的间距，默认10pt
 \caption{示例表格1}
-\begin{center}
     \begin{tabular}{ccc}
     \toprule
     \textbf{属性1} & \textbf{属性2} & \textbf{属性3} \\ \midrule
     1            & $\Vec{a}_r$  & 3            \\
-    4            & 5            & 6            \\
-    7            & 8            & 9            \\ \bottomrule
-    \end{tabular}
-\end{center}\label{tab:exp_table1}
-
+    4            & $\Vec{b}_r$  & 6            \\
+    7            & $\Vec{c}_r$  & 9            \\ \bottomrule
+    \end{tabular}\label{tab:exp_table1}
 \end{table}
-hello, world! hello, world! hello, world! hello, world! hello, world! hello, world! hello, world!
+
+hello, world! hello, world! hello, world! hello, world! hello, world! hello, world!
